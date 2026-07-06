@@ -1,0 +1,72 @@
+{
+  "genres": [
+    {"id": "rock", "name": "Рок"},
+    {"id": "rap", "name": "Рэп"},
+    {"id": "pop", "name": "Попса"},
+    {"id": "all", "name": "Все жанры"}
+  ],
+  "languages": [
+    {"id": "ru", "name": "Русское"},
+    {"id": "en", "name": "Английское"},
+    {"id": "es", "name": "Испанское"},
+    {"id": "all", "name": "Все языки"}
+  ],
+  "stations": [
+    {
+      "id": "nashe-main",
+      "name": "НАШЕ РАДИО",
+      "url": "https://nashe1.hostingradio.ru:80/nashe-128.mp3?wcid=f5536d62-d5de-4e37-8738-e4ff43302573&stationId=nashe-main",
+      "genre": "rock",
+      "language": "ru"
+    },
+    {
+      "id": "nashe-20",
+      "name": "НАШЕ РАДИО 2.0",
+      "url": "https://nashe1.hostingradio.ru:18000/nashe20-128.mp3?wcid=f5536d62-d5de-4e37-8738-e4ff43302573&stationId=nashe-20",
+      "genre": "rock",
+      "language": "ru"
+    },
+    {
+      "id": "nashe-spb",
+      "name": "НАШЕ СПБ",
+      "url": "https://nashe1.hostingradio.ru:80/nashespb128.mp3?wcid=f5536d62-d5de-4e37-8738-e4ff43302573&stationId=nashe-spb",
+      "genre": "rock",
+      "language": "ru"
+    },
+    {
+      "id": "nashe-ekb",
+      "name": "НАШЕ ЕКБ",
+      "url": "https://nasheekt.hostingradio.ru:80/nasheekt128.mp3?wcid=f5536d62-d5de-4e37-8738-e4ff43302573&stationId=nashe-ekb",
+      "genre": "rock",
+      "language": "ru"
+    },
+    {
+      "id": "nashe-classic",
+      "name": "НАШЕ КЛАССИЧЕСКИЙ РОК",
+      "url": "https://nashe1.hostingradio.ru/nasheclassic.mp3?wcid=f5536d62-d5de-4e37-8738-e4ff43302573&stationId=nashe-classic",
+      "genre": "rock",
+      "language": "ru"
+    },
+    {
+      "id": "nashe-punk",
+      "name": "НАШЕ ПАНК РОК",
+      "url": "https://nashe1.hostingradio.ru/nashepunks.mp3?wcid=f5536d62-d5de-4e37-8738-e4ff43302573&stationId=nashe-punk",
+      "genre": "rock",
+      "language": "ru"
+    },
+    {
+      "id": "nashe-sing",
+      "name": "НАШЕ ЩАС СПОЮ!",
+      "url": "https://nashe1.hostingradio.ru/nashesongs.mp3?wcid=f5536d62-d5de-4e37-8738-e4ff43302573&stationId=nashe-sing",
+      "genre": "rock",
+      "language": "ru"
+    },
+    {
+      "id": "empty-test",
+      "name": "ПУСТ (тест)",
+      "url": "https://empty.test.url/stream.mp3",
+      "genre": "all",
+      "language": "all"
+    }
+  ]
+}
