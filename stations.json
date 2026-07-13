@@ -1,8 +1,8 @@
 {
   "versionInfo": {
-    "currentVersion": "1.1",
-    "state": "normal",
-    "minRequiredVersion": "1.0",
+    "currentVersion": "1.2",
+    "state": "beta",
+    "minRequiredVersion": "1.1",
     "updateUrl": "https://github.com/vstepzeroine/RadioDataStrict/releases/latest"
   },
   "genres": [
