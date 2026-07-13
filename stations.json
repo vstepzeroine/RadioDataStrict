@@ -1,4 +1,10 @@
 {
+  "versionInfo": {
+    "currentVersion": "1.1",
+    "state": "normal",
+    "minRequiredVersion": "1.0",
+    "updateUrl": "https://github.com/vstepzeroine/RadioDataStrict/releases/latest"
+  },
   "genres": [
     {"id": "rock", "name": "Рок"},
     {"id": "rap", "name": "Рэп"},
