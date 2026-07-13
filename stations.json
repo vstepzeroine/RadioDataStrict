@@ -3,13 +3,13 @@
     {"id": "rock", "name": "Рок"},
     {"id": "rap", "name": "Рэп"},
     {"id": "pop", "name": "Попса"},
-    {"id": "all", "name": "Все жанры"}
+    {"id": "null", "name": "Не работает"}
   ],
   "languages": [
     {"id": "ru", "name": "Русское"},
     {"id": "en", "name": "Английское"},
     {"id": "es", "name": "Испанское"},
-    {"id": "all", "name": "Все языки"}
+    {"id": "null", "name": "Не работает"}
   ],
   "stations": [
     {
@@ -65,8 +65,8 @@
       "id": "empty-test",
       "name": "ПУСТ (тест)",
       "url": "https://empty.test.url/stream.mp3",
-      "genre": "all",
-      "language": "all"
+      "genre": "null",
+      "language": "null"
     }
   ]
 }
