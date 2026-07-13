@@ -62,6 +62,13 @@
       "language": "ru"
     },
     {
+      "id": "record-rock",
+      "name": "Рекорд рок",
+      "url": "https://radiorecord.hostingradio.ru/rock96.aacp",
+      "genre": "rock",
+      "language": "ru"
+    },
+    {
       "id": "empty-test",
       "name": "ПУСТ (тест)",
       "url": "https://empty.test.url/stream.mp3",
