@@ -1,8 +1,8 @@
 {
   "versionInfo": {
     "currentVersion": "1.1",
-    "state": "beta",
-    "minRequiredVersion": "1.1",
+    "state": "normal",
+    "minRequiredVersion": "1.0",
     "updateUrl": "https://t.me/glupiy_raznos",
     "changelog": [
       {
@@ -20,10 +20,6 @@
       {
         "text": "Добавлена новая станция 'Рекорд рок'",
         "color": "#00BFFF"
-      },
-      {
-        "text": "Добавлена поддержка HEX цветов в списке изменений",
-        "color": "#00FF00"
       }
     ]
   },
