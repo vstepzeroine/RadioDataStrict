@@ -1,6 +1,6 @@
 {
   "versionInfo": {
-    "currentVersion": "1.1.1",
+    "currentVersion": "1.1.2",
     "state": "normal",
     "minRequiredVersion": "1.0",
     "updateUrl": "https://t.me/glupiy_raznos",
@@ -24,20 +24,51 @@
         "version": "1.1.1",
         "text": "Исправлены некоторые незначительные ошибки/баги, которые было не видно пользователю :-)",
         "color": "#00BFFF"
+      },
+      {
+        "version": "1.1.2",
+        "text": "Удалены остатки тестовых станций",
+        "color": "#9DA1AA"
+      },
+      {
+        "version": "1.1.2",
+        "text": "Добавлена новая радиостанция Record Dance Radio",
+        "color": "#EE204D"
+      },
+      {
+        "version": "1.1.2",
+        "text": "Добавлена новая радиостанция Европа Плюс",
+        "color": "#BB8B54"
+      },
+      {
+        "version": "1.1.2",
+        "text": "Добавлена новая радиостанция Anime Radio",
+        "color": "#641C34"
+      },
+      {
+        "version": "1.1.2",
+        "text": "Добавлена новая радиостанция Динамит FM",
+        "color": "#423C63"
+      },
+      {
+        "version": "1.1.2",
+        "text": "Добавлена новая радиостанция Радио дача",
+        "color": "#FFAE42"
       }
     ]
   },
   "genres": [
     {"id": "rock", "name": "Рок"},
     {"id": "rap", "name": "Рэп"},
+    {"id": "dance", "name": "Танцевальное"},
     {"id": "pop", "name": "Попса"},
-    {"id": "null", "name": "Не работает"}
+    {"id": "anime", "name": "Анимэ"},
+    {"id": "retro", "name": "Ретро"}
   ],
   "languages": [
     {"id": "ru", "name": "Русское"},
     {"id": "en", "name": "Английское"},
-    {"id": "es", "name": "Испанское"},
-    {"id": "null", "name": "Не работает"}
+    {"id": "ja", "name": "Японское"}
   ],
   "stations": [
     {
@@ -97,11 +128,46 @@
       "language": "ru"
     },
     {
-      "id": "empty-test",
-      "name": "ПУСТ (тест)",
-      "url": "https://empty.test.url/stream.mp3",
-      "genre": "null",
-      "language": "null"
+      "id": "record-dance",
+      "name": "Рекорд Танцевальное",
+      "url": "https://radio-srv1.11one.ru/record192k.mp3",
+      "genre": "dance",
+      "language": "ru"
+    },
+    {
+      "id": "evropa-plus",
+      "name": "Европа Плюс",
+      "url": "http://eptop128server.streamr.ru:8033/eptop128",
+      "genre": "pop",
+      "language": "ru"
+    },
+    {
+      "id": "anime-radio",
+      "name": "Анимэ Радио",
+      "url": "http://pool.anison.fm:9000/AniSonFM(320)?nocache=0.9834540412142996",
+      "genre": "anime",
+      "language": "ja"
+    },
+    {
+      "id": "d-fm",
+      "name": "Динамит FM ру",
+      "url": "https://dfm.hostingradio.ru/dfm128.mp3",
+      "genre": "dance",
+      "language": "ru"
+    },
+    {
+      "id": "d-fm",
+      "name": "Динамит FM ру",
+      "url": "https://dfm.hostingradio.ru/dfm128.mp3",
+      "genre": "dance",
+      "language": "ru"
+    },
+    {
+      "id": "radio-dacha",
+      "name": "Радио Дача",
+      "url": "http://listen.vdfm.ru:8000/dacha",
+      "genre": "retro",
+      "language": "ru"
     }
   ]
 }
