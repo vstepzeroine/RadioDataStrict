@@ -27,6 +27,16 @@
       },
       {
         "version": "1.1.2",
+        "text": "Исправлена ошибка с незащищёнными HTTP соединениями",
+        "color": "#926EAE"
+      },
+      {
+        "version": "1.1.2",
+        "text": "Исправлена ошибка с фильтрами",
+        "color": "#7F7679"
+      },
+      {
+        "version": "1.1.2",
         "text": "Исправлена проблема показа списка обнвлений",
         "color": "#FFFAFA"
       },
@@ -62,13 +72,13 @@
       },
       {
         "version": "1.1.2",
-        "text": "Исправлена ошибка с незащищёнными HTTP соединениями",
-        "color": "#926EAE"
+        "text": "Добавлена новая радиостанция Дорожное радио",
+        "color": "#876C99"
       },
       {
         "version": "1.1.2",
-        "text": "Исправлена ошибка с фильтрами",
-        "color": "#7F7679"
+        "text": "Добавлена новая радиостанция Радио Маяк",
+        "color": "#EFDECD"
       }
     ]
   },
@@ -78,7 +88,8 @@
     {"id": "dance", "name": "Танцевальное"},
     {"id": "pop", "name": "Попса"},
     {"id": "anime", "name": "Анимэ"},
-    {"id": "retro", "name": "Ретро"}
+    {"id": "retro", "name": "Ретро"},
+    {"id": "inforazg", "name": "Информационно-Разговорные"}
   ],
   "languages": [
     {"id": "ru", "name": "Русское"},
@@ -175,6 +186,20 @@
       "name": "Радио Дача",
       "url": "http://listen.vdfm.ru:8000/dacha",
       "genre": "retro",
+      "language": "ru"
+    },
+    {
+      "id": "dorojnoe-radio",
+      "name": "Дорожное Радио",
+      "url": "http://dorognoe.hostingradio.ru:8000/dorognoe",
+      "genre": "pop",
+      "language": "ru"
+    },
+    {
+      "id": "radio-mayak",
+      "name": "Радио маяк",
+      "url": "http://icecast.vgtrk.cdnvideo.ru/mayakfm_mp3_192kbps",
+      "genre": "inforazg",
       "language": "ru"
     }
   ]
