@@ -156,13 +156,6 @@
       "language": "ru"
     },
     {
-      "id": "d-fm",
-      "name": "Динамит FM ру",
-      "url": "https://dfm.hostingradio.ru/dfm128.mp3",
-      "genre": "dance",
-      "language": "ru"
-    },
-    {
       "id": "radio-dacha",
       "name": "Радио Дача",
       "url": "http://listen.vdfm.ru:8000/dacha",
