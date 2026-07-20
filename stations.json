@@ -79,22 +79,59 @@
         "version": "1.1.2",
         "text": "Добавлена новая радиостанция Радио Маяк",
         "color": "#EFDECD"
+      },
+      {
+        "version": "1.1.2",
+        "text": "Добавлена новая радиостанция Радио максимум",
+        "color": "#006400"
+      },
+      {
+        "version": "1.1.2",
+        "text": "Добавлена новая радиостанция Радио Эрмитаж",
+        "color": "#1E5945"
+      },
+      {
+        "version": "1.1.2",
+        "text": "Добавлена новая радиостанция Радио Бриз",
+        "color": "#EF98AA"
+      },
+      {
+        "version": "1.1.2",
+        "text": "Добавлена новая радиостанция Радио Мелодия",
+        "color": "#6699CC"
+      },
+      {
+        "version": "1.1.2",
+        "text": "Добавлена новая радиостанция Русское Радио",
+        "color": "#1F3A3D"
+      },
+      {
+        "version": "1.1.2",
+        "text": "Добавлена новая радиостанция Pop",
+        "color": "#C8A2C8"
+      },
+      {
+        "version": "1.1.2",
+        "text": "Добавлена новая радиостанция EURO Radio FM",
+        "color": "#CE2029"
       }
     ]
   },
   "genres": [
     {"id": "rock", "name": "Рок"},
+    {"id": "jass", "name": "джаз"},
     {"id": "rap", "name": "Рэп"},
-    {"id": "dance", "name": "Танцевальное"},
     {"id": "pop", "name": "Попса"},
-    {"id": "anime", "name": "Анимэ"},
+    {"id": "dance", "name": "Танцевальное"},
     {"id": "retro", "name": "Ретро"},
+    {"id": "anime", "name": "Анимэ"},
     {"id": "inforazg", "name": "Информационно-Разговорные"}
   ],
   "languages": [
     {"id": "ru", "name": "Русское"},
     {"id": "en", "name": "Английское"},
-    {"id": "ja", "name": "Японское"}
+    {"id": "ja", "name": "Японское"},
+    {"id": "by", "name": "Белорусское"}
   ],
   "stations": [
     {
@@ -148,10 +185,24 @@
     },
     {
       "id": "record-rock",
-      "name": "Рекорд рок",
+      "name": "РЕКОРД РОК",
       "url": "https://radiorecord.hostingradio.ru/rock96.aacp",
       "genre": "rock",
       "language": "ru"
+    },
+    {
+      "id": "maximum-radio",
+      "name": "РАДИО МАКСИМУМ",
+      "url": "https://maximum.hostingradio.ru/maximum128.mp3",
+      "genre": "rock",
+      "language": "ru"
+    },
+    {
+      "id": "euro-radio-fm",
+      "name": "EURO Radio FM",
+      "url": "http://stream1.euroradio.fm:8000/euroradio1?seed=1523961466",
+      "genre": "rock",
+      "language": "by"
     },
     {
       "id": "record-dance",
@@ -201,6 +252,41 @@
       "url": "http://icecast.vgtrk.cdnvideo.ru/mayakfm_mp3_192kbps",
       "genre": "inforazg",
       "language": "ru"
+    },
+    {
+      "id": "radio-ermitaj",
+      "name": "Радио Эрмитаж",
+      "url": "https://hermitage.hostingradio.ru/hermitage128.mp3",
+      "genre": "jass",
+      "language": "ru"
+    },
+    {
+      "id": "radio-brizfm",
+      "name": "Радио Бриз",
+      "url": "http://listen.myradio24.com:9000/8020",
+      "genre": "jass",
+      "language": "ru"
+    },
+    {
+      "id": "radio-melodiya",
+      "name": "Радио Мелодия (СПБ)",
+      "url": "http://stream128.melodiafm.spb.ru:8000/melodia128",
+      "genre": "retro",
+      "language": "ru"
+    },
+    {
+      "id": "russian-radio",
+      "name": "Русское Радио",
+      "url": "https://rusradio.hostingradio.ru/rusradio128.mp3",
+      "genre": "pop",
+      "language": "ru"
+    },
+    {
+      "id": "pop-en",
+      "name": "Pop",
+      "url": "https://ice-the.musicradio.com/CapitalXTRANationalMP3",
+      "genre": "pop",
+      "language": "en"
     }
   ]
 }
