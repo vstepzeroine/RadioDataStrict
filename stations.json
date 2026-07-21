@@ -114,14 +114,47 @@
         "version": "1.1.2",
         "text": "Добавлена новая радиостанция EURO Radio FM",
         "color": "#CE2029"
+      },
+      {
+        "version": "1.1.2",
+        "text": "Добавлена новая радиостанция Love Is Radio",
+        "color": "#2B2517"
+      },
+      {
+        "version": "1.1.2",
+        "text": "Добавлена новая радиостанция radio-skif.by",
+        "color": "#21421E"
+      },
+      {
+        "version": "1.1.2",
+        "text": "Добавлена новая радиостанция Discover Trance",
+        "color": "#8B8940"
+      },
+      {
+        "version": "1.1.2",
+        "text": "Добавлена новая радиостанция 90's Eurodance",
+        "color": "#E3A9BE"
+      },
+      {
+        "version": "1.1.2",
+        "text": "Добавлена новая радиостанция Cristmas Radio",
+        "color": "#B0C4DE"
+      },
+      {
+        "version": "1.1.2",
+        "text": "Добавлена новая радиостанция Jazz FM 89.1",
+        "color": "#DDA0DD"
       }
     ]
   },
   "genres": [
     {"id": "rock", "name": "Рок"},
-    {"id": "jass", "name": "джаз"},
+    {"id": "jass", "name": "Джаз"},
     {"id": "rap", "name": "Рэп"},
     {"id": "pop", "name": "Попса"},
+    {"id": "trance", "name": "Транс"},
+    {"id": "eurodance", "name": "Евродэнс"},
+    {"id": "christmas", "name": "Празничное"},
     {"id": "dance", "name": "Танцевальное"},
     {"id": "retro", "name": "Ретро"},
     {"id": "anime", "name": "Анимэ"},
@@ -287,6 +320,48 @@
       "url": "https://ice-the.musicradio.com/CapitalXTRANationalMP3",
       "genre": "pop",
       "language": "en"
+    },
+    {
+      "id": "love-is-radio",
+      "name": "Love Is Radio",
+      "url": "http://listen1.myradio24.com:9000/3355",
+      "genre": "pop",
+      "language": "by"
+    },
+    {
+      "id": "radio-skif-by",
+      "name": "radio-skif.by",
+      "url": "http://178.172.150.248:2530/;stream.nsv",
+      "genre": "pop",
+      "language": "by"
+    },
+    {
+      "id": "discover-trance",
+      "name": "Discover Trance",
+      "url": "http://paris.discovertrance.com:8006/;stream.nsv",
+      "genre": "trance",
+      "language": "en"
+    },
+    {
+      "id": "90-s-eurodance",
+      "name": "90's Eurodance",
+      "url": "https://listen9.myradio24.com/5967",
+      "genre": "eurodance",
+      "language": "en"
+    },
+    {
+      "id": "cristmas-radio",
+      "name": "Cristmas Radio",
+      "url": "http://relay4.181.fm:8124/",
+      "genre": "christmas",
+      "language": "en"
+    },
+    {
+      "id": "jazz-fm-89-1",
+      "name": "Jazz FM 89.1",
+      "url": "https://nashe1.hostingradio.ru/jazz-128.mp3",
+      "genre": "jass",
+      "language": "ru"
     }
   ]
 }
